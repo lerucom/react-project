@@ -1,3 +1,31 @@
 import './main.css'
 
-document.write('react/redux');
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {createStore, applyMiddleware} from 'redux'
+import {composeWithDevTools} from 'redux-devtools-extension'  // для удобного debug
+import thunk from 'redux-thunk' // для ассинхронных запросов
+import {syncHistoryWithStore} from 'react-router-redux'
+import {Router, Route, browserHistory} from 'react-router'
+import {Provider} from 'react-redux'
+
+import reducers from 'reducers'
+import Layout from 'containers/layout'
+import Parts from 'containers/parts'
+
+const store = createStore(reducers, composeWithDevTools(
+    applyMiddleware(thunk)
+));
+
+const history = syncHistoryWithStore(browserHistory, store);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <Router history={history}>
+            <Route component={Layout}> // стандарная обертка вокруг любой страницы, содержит место для content и sidebar
+                <Route path='/' component={Parts} />
+            </Route>
+        </Router>
+    </Provider>,
+    document.getElementById('root')
+);
