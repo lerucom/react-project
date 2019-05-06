@@ -25,6 +25,7 @@ ReactDOM.render(
         <Router history={history}>
             <Route component={Layout}> // стандарная обертка вокруг любой страницы, содержит место для content и sidebar
                 <Route path='/' component={Parts} />
+                <Route path='categories/:id' component={Parts} />
             </Route>
             <Route path='parts/:id' component={Part} />
         </Router>
