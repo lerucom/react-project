@@ -5,6 +5,6 @@
 Стек:
 * react
 * redux
-* bootstrap
+* ramda
 * css
-* font-awesome
+* bootstrap
