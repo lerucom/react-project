@@ -12,5 +12,5 @@
 * bootstrap
 
 ![Главная](https://github.com/lerucom/react-project/raw/master/public/images/main.JPG)
-![Главная](https://github.com/lerucom/react-project/raw/master/public/images/part.JPG)
-![Главная](https://github.com/lerucom/react-project/raw/master/public/images/cart.JPG)
+![Страница товара](https://github.com/lerucom/react-project/raw/master/public/images/part.JPG)
+![Корзина](https://github.com/lerucom/react-project/raw/master/public/images/cart.JPG)
