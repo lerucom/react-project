@@ -10,3 +10,7 @@
 * heroku
 * css
 * bootstrap
+
+![Главная](https://github.com/lerucom/react-project/raw/master/public/images/main.JPG)
+![Главная](https://github.com/lerucom/react-project/raw/master/public/images/part.JPG)
+![Главная](https://github.com/lerucom/react-project/raw/master/public/images/cart.JPG)

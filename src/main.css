@@ -8,6 +8,12 @@
     z-index: 100500;
 }
 
+.social img {
+    width: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
 #page-preloader .spinner {
     width: 64px;
     height: 64px;
@@ -36,8 +42,6 @@
 .caption{
     min-height:165px;
 }
-
-
 
 .book-list figure {
     position: relative;
