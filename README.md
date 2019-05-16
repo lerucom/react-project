@@ -6,5 +6,7 @@
 * react
 * redux
 * ramda
+* nodejs
+* heroku
 * css
 * bootstrap
