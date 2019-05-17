@@ -6,10 +6,10 @@
 * react
 * redux
 * ramda
-* nodejs
-* heroku
 * css
 * bootstrap
+* nodejs
+* heroku https://react-project-server.herokuapp.com/items
 
 ![Главная](https://github.com/lerucom/react-project/raw/master/public/images/main.JPG)
 ![Страница товара](https://github.com/lerucom/react-project/raw/master/public/images/part.JPG)
